@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-attachment: none;
+}
+form{
+    width: 80%;
+    height: 100%;
+    background-color:black;
+    margin-inline: auto;
+
+
+}
+.img{
+    width:50%; 
+    height:40vh;
+    background-image: url("./img/apple-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+   
+}
+h1{
+    color:white;
+    font-size: 50px;
+}
+.hh >h2{
+    color: aqua;
+    font-size: 40px;
+}
+.button{
+    display: flex;
+    gap: 3rem;
+}
+button{
+    height:2rem ;
+    border-radius:50px;
+    width: 50%;
+}
+main{
+    display: flex;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.free{
+    border: solid 2px;
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+.round{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    padding: 50px;
+
+}
+.pt{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+aside{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+aside > div{
+    height:30vh ;
+    width: 22vw;
+    margin-top: 30px;
+    padding: 25px;
+    border: solid 0.2px;
+    color: white;
+    border-radius: 15px;
+}
+aside >div p{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.me {
+    font-size: 2.7rem;
+    background: white;
+    -webkit-background-clip: text;
+    color :transparent;
+    padding: 45px;
+    margin-left: 3.5rem;
+}
+.me-2{
+    display: none;
+}
+.logo{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./img/desktop-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our{
+    font-size: 19px;
+    color: azure;
+
+}
+.our >P{
+    font-size: 3rem;
+    padding: 10px;  
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+footer >div{
+    height:50vh ;
+    width: 20vw;
+    margin-top: 30px;
+    padding: 25px;
+    border: solid 0.2px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 2rem;
+  
+}
+.fa-check{
+    background:linear-gradient(to right#333);
+    -webkit-animation: clip;
+}
+.fass{
+    margin-top: 20px;
+}
+hr{
+    border: cover;
+}
+span{
+    font-size: 25px;
+
+}
+footer >div:hover{
+    color: black;
+    background: linear-gradient(to right#22d, tr);
+}
+h4{
+    border: solid 1px;
+    color: black;
+    text-align: center;
+    border-radius: 3rem;
+    height: 2.3rem;
+    margin-top: 1.6rem;
+    padding: 8px;
+    background-color: white;
+    border: 0;
+}
+h4:hover{
+    color: navy;
+    background-color:darkorange;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
